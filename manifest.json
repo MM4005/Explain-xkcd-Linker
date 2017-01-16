@@ -4,6 +4,7 @@
   "name": "Explain xkcd Linker",
   "description": "Adds button linking to the explain xkcd of the current page",
   "version": "1.0",
+  "homepage_url": "https://github.com/MM4005/Explain-xkcd-Linker/",
   "content_scripts": [
     {
       "matches": ["http://xkcd.com/*"],
