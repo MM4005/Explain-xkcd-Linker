@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Explain xkcd Linker",
+  "description": "Adds button linking to the explain xkcd of the current page",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://xkcd.com/*"],
+      "js": ["xkcd_Linker.js"]
+    }
+  ]
+}
